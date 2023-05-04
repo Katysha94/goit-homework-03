@@ -151,7 +151,6 @@ img {
     padding-top: 0px;
     padding-bottom: 0px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
   
 }
@@ -164,6 +163,10 @@ img {
     letter-spacing: 0.02em;
     margin-top: 188px;
     margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 496px;
+   
  }
 
 .button {
@@ -177,15 +180,18 @@ img {
 }
 
  .modal-open-btn {
-   color: #FFFFFF; 
-   background-color: var(--secondary-accent-color);
+    display: flex;
+    color: #FFFFFF; 
+    background-color: var(--secondary-accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    margin: 48px 635px 188px 636px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 188px;
+    
  }
  .modal-open-btn:hover,
  .modal-open-btn:focus {
@@ -196,6 +202,13 @@ img {
 .feauters {
     background-color: #FFFFFF;
 }
+
+.feauters-list{
+    display: flex;
+    justify-content: center; 
+    column-gap: 24px;
+}
+
  .feauters-title {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
@@ -203,6 +216,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
  }
 
  .feauters-suptitle {
@@ -223,7 +237,19 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto;
  }
+
+ .activity-list {
+    display: flex;
+    column-gap: 24px;
+ }
+ .activity-item {
+    flex-basis: calc((100% - 48px) / 3);
+ }
+
  /* our team */
  .our-team {
     background-color: var(--logo-footer-second-color);
@@ -238,10 +264,19 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-right: auto;
+    margin-bottom: 72px;
+    margin-left: auto;
+ }
+
+ .our-team-list {
+    display: flex;
+    column-gap: 24px;
  }
 
 .our-team-item {
     background-color: #FFFFFF;
+    flex-basis: ((100% - 72px) / 4);
 }
  
  .our-team-title {
