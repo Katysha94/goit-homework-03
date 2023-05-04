@@ -66,6 +66,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .page-navigation {
@@ -177,6 +178,8 @@ img {
         align-items: center;
         padding: 16px 32px;
         gap: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
 }
 
  .modal-open-btn {
@@ -191,7 +194,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 188px;
-    
  }
  .modal-open-btn:hover,
  .modal-open-btn:focus {
@@ -277,8 +279,14 @@ img {
 .our-team-item {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
  
+.our-team-img {
+    margin-bottom: 32px;
+}
+
  .our-team-title {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
@@ -286,6 +294,8 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
  }
 
  .our-team-suptitle {
@@ -295,13 +305,18 @@ img {
      font-size: 16px;
      line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    text-align: center;
  }
  /* footer */
  .footer {
     font-family: var(--secondary-font-family);
     background-color: var(--primary-text-color);
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 188px;
+    justify-content: flex-start;
  }
-
 
  .logo-footer {
     color: var(--secondary-accent-color);
@@ -310,6 +325,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 100px;
+    margin-right: 1169px;
+    margin-bottom: 16px;
+    margin-left: auto;
  }
 
  .logo-footer-accent {
@@ -323,13 +342,29 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-right: 1020px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    width: 264px;
  }
 /* portfolio.html */
 
 /* navigation */
-.navigation-list{
+.navigation-list {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    column-gap: 24px;
 }
+
+.navigation-item {
+    flex-basis: calc((100% - 96px) / 5);
+    
+}
+
 .navigation-button{
     background-color: var(--logo-footer-second-color);
     font-family: var(--main-font-family);
@@ -338,6 +373,9 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+   
 }
 .navigation-button:hover,
 .navigation-button:focus {
