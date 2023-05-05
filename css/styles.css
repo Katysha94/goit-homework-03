@@ -382,8 +382,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: 1px solid #E7E9FC;
+   padding-top: 12px;
+   padding-right: 24px;
+   padding-bottom: 12px;
+   padding-left: 24px;
     border-radius: 4px;
-   
+
 }
 .navigation-button:hover,
 .navigation-button:focus {
@@ -393,8 +397,25 @@ img {
 /* work examples */
 .work-examples-list{
     list-style: none;
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 120px;
+    flex-wrap: wrap;
+
 }
 
+.work-examples-item {
+    flex-basis: calc((100% - 144px) - 9);
+    border: 1px solid #E7E9FC;
+}
+
+.work-examples-img {
+    padding-top: 72px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-left: 156px;
+}
+ 
 .work-examples-title {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
