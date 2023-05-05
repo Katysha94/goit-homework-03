@@ -367,16 +367,10 @@ img {
 .navigation-list {
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-top: 96px;
     padding-bottom: 72px;
     column-gap: 24px;
-}
-
-.navigation-item {
-    flex-basis: calc((100% - 96px) / 5);
-    
 }
 
 .navigation-button{
