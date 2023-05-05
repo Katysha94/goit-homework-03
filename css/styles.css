@@ -406,7 +406,6 @@ img {
 
 .work-examples-item {
     flex-basis: calc((100% - 144px) - 9);
-    border: 1px solid #E7E9FC;
 }
 
 .work-examples-img {
