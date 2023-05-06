@@ -293,7 +293,7 @@ img {
 
  .our-team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
  }
 
 .our-team-item {
@@ -305,6 +305,9 @@ img {
  
 .our-team-img {
     margin-bottom: 32px;
+}
+.our-team-container {
+    padding: 32px 16px;
 }
 
  .our-team-title {
@@ -325,7 +328,6 @@ img {
      font-size: 16px;
      line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
     text-align: center;
  }
  /* footer */
