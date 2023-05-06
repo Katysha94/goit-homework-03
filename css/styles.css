@@ -91,11 +91,11 @@ img {
 
 .menu {
     display: flex;
+    gap: 40px;
 }
 
 .menu-item {
     margin-right: 40px;
-    padding: 24px 0;
 }
 
 .menu-link {
@@ -104,6 +104,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -142,6 +143,7 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 40px
 
 }
 
@@ -330,10 +332,7 @@ img {
  .footer {
     font-family: var(--secondary-font-family);
     background-color: var(--primary-text-color);
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 188px;
-    justify-content: flex-start;
+    padding: 100px 0;
  }
 
  .logo-footer {
@@ -343,14 +342,14 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-top: 100px;
-    margin-right: 1169px;
+    display: inline-block;
     margin-bottom: 16px;
-    margin-left: auto;
  }
 
  .logo-footer-accent {
      color: var(--logo-footer-second-color);
+    display: inline-block;
+    margin-bottom: 16px;
  }
 
  .footer-suptitle {
@@ -360,10 +359,10 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 1020px;
+    max-width: 264px;
+    margin-top: 16px;
+    margin-right: auto;
     margin-bottom: 100px;
-    margin-left: auto;
-    width: 264px;
  }
 /* portfolio.html */
 
