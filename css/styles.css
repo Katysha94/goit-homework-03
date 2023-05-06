@@ -410,7 +410,6 @@ display: flex;
     list-style: none;
     display: flex;
     column-gap: 24px;
-    padding-bottom: 120px;
     flex-wrap: wrap;
     row-gap: 48px;
 }
