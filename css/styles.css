@@ -87,18 +87,12 @@ display: flex;
 .page-navigation {
     display: flex;
     align-items: center;
-    gap: 40px;
-    justify-content: flex-end;
     margin-right: auto;
 }
 
 .menu {
     display: flex;
     gap: 40px;
-}
-
-.menu-item {
-    margin-right: 40px;
 }
 
 .menu-link {
@@ -168,10 +162,6 @@ display: flex;
 /* hero */
 .hero { 
     background-color: var(--primary-text-color);
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: flex;
-    justify-content: center;
     padding: 188px 0;
   
 }
@@ -212,7 +202,6 @@ display: flex;
     letter-spacing: 0.04em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 188px;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -256,6 +245,11 @@ display: flex;
     letter-spacing: 0.02em;
  }
  /* activity */
+
+ .activity section {
+    padding-top: 0;
+ }
+
  .activity-title {
     font-family: var(--main-font-family);
     color: var(--primary-text-color);
@@ -309,9 +303,6 @@ display: flex;
     border-radius: 0px 0px 4px 4px;
 }
  
-.our-team-img {
-    margin-bottom: 32px;
-}
 .our-team-container {
     padding: 32px 16px;
 }
@@ -357,7 +348,6 @@ display: flex;
  .logo-footer-accent {
      color: var(--logo-footer-second-color);
     display: inline-block;
-    margin-bottom: 16px;
  }
 
  .footer-suptitle {
@@ -368,9 +358,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-top: 16px;
     margin-right: auto;
-    margin-bottom: 100px;
  }
 /* portfolio.html */
 
@@ -440,5 +428,4 @@ display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
